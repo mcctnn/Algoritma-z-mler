@@ -4,16 +4,11 @@ class Saat
 {
 public:
 	int saat, dakika;
-	void kur(int a, int b)
+	void kur(int a=12, int b=0)
 	{
 		saat = a;
 		dakika = b;
 	}
-	/*void kur()
-	{
-		saat = 12;
-		dakika = 0;
-	}*/
 	void arttır()
 	{
 		if (dakika < 59)
